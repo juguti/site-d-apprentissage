@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <h1>appuyez sur f12 pour voir le code<br> le numéros  devant l'élément dont vous avez besoin sert à indique la ligne <br> ces élement ne fonctionne que si il sont placer dans la balise form </h1>
+    <form method="get">
+        1 <input type="texte" placeholder="entrez votre nom"><br>
+        2<input name="nam" type="radio" >oui<input name="nam" type="radio" >non<br>
+        3<input  type="color" ><br>
+        4<button type="button">ok</button><br>
+        5<input  type="date" ><br>
+        6<input  type="datetime-local" ><br>
+        7<input  type="email" placeholder="abc@gmail.com" ><br>
+        8<input  type="tel" placeholder="06 XX XX XX XX" ><br>
+        9<input  type="search"placeholder="rechercher" ><br>
+        10<input  type="range" max="100" min="0" step="10" ><br>
+        11<input  type="number" max="100" min="0" step="10" ><br>
+        12<input  type="submit" value="envoyé"><br>
+        12<input  type="reset" value="effacé"><br>
+        13<input  type="button" value="ok"><br>    
+    </form>
+    <form action="" id="1">
+        <fieldset id="1">
+            <legend>titre section ligne 28</legend>
+            2<input type="texte" placeholder="entrez votre nom"><br>
+            3<textarea name="entry" id="1" cols="10" rows="5"></textarea>
+        </fieldset>
+        <select name="oui">
+                <option value="1">1</option>
+                <option value="2">2</option>
+        </select><br>
+        
+        <select name="non">
+            <optgroup label="nombre">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </optgroup>
+            <optgroup label="lettre">
+                <option value="a">a</option>
+                <option value="b">b</option>
+            </optgroup>
+        
+       
+            
+        </select><br>
+        <input list="datalist" >
+        <datalist id="datalist">
+            <option value="a">a</option>
+            <option value="b">b</option> 
+        </datalist>
+    </form>
+    
+</body>
+</html>
